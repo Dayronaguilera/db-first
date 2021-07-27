@@ -6,7 +6,7 @@ column               type                                 attributes            
 id                   BIGINT UNSIGNED                      AUTO_INCREMENT, NOT NULL      PRIMARY KEY
 Marca                VARCHAR(200)                         NOT NULL                      INDEX 
 Modello              VARCHAR(200)                         NOT NULL                      INDEX
-Prezzo               FLOAT(6, 2), MEDIUMINT UNSIGNED      NOT NULL                      INDEX
+Prezzo               DECIMAL(7, 2)                        NOT NULL                      INDEX
 Immatricolazione     DATA                                 NOT NULL
 Chilometraggio       MEDIUMINT UNSIGNED                   NOT NULL
 Equipaggiamento      MEDIUMTEXT                           NULL
